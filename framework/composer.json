@@ -1,0 +1,27 @@
+{
+    "name": "framework/framework",
+    "description": "PHP Framework.",
+    "type": "project",
+    "require": {
+        "php": "8.0.*",
+        "symfony/dependency-injection": "5.4.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "LukeMcCann",
+            "email": "developer-lukemccann@outlook.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
